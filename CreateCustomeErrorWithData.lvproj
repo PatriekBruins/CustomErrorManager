@@ -24,6 +24,11 @@
 		<Item Name="Configure CreateCustomErrorWithData.vi" Type="VI" URL="/&lt;userlib&gt;/_express/CustomErrorCreator/_CreateCustomErrorWithDataConfig.llb/Configure CreateCustomErrorWithData.vi"/>
 		<Item Name="ErrorDefinitionSQLite.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/_express/CustomErrorCreator/ErrorDefinitionSQLite/ErrorDefinitionSQLite.lvclass"/>
 		<Item Name="testttt.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/_express/CustomErrorCreator/ErrorDefinitionSQLite/testttt/testttt.lvclass"/>
+		<Item Name="ErrorCreationExecution.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/_express/CustomErrorCreator/ErrorCreationExecution/ErrorCreationExecution.lvclass"/>
+		<Item Name="subCreateCustomErrorWithData.vi" Type="VI" URL="/&lt;userlib&gt;/_express/CustomErrorCreator/CreateCustomErrorWithDataSource.llb/subCreateCustomErrorWithData.vi"/>
+		<Item Name="ErrorCreationMGI.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/_express/CustomErrorCreator/ErrorCreationTypes/ErrorCreationMGI/ErrorCreationMGI.lvclass"/>
+		<Item Name="ConfigurationData.ctl" Type="VI" URL="/&lt;userlib&gt;/_express/CustomErrorCreator/_CreateCustomErrorWithDataConfig.llb/ConfigurationData.ctl"/>
+		<Item Name="ConfigurationHandling.vi" Type="VI" URL="/&lt;userlib&gt;/_express/CustomErrorCreator/_CreateCustomErrorWithDataConfig.llb/ConfigurationHandling.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -88,9 +93,11 @@
 				<Item Name="subCalcPropPageCtlName.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/subCalcPropPageCtlName.vi"/>
 				<Item Name="propPagePersistenceType.ctl" Type="VI" URL="/&lt;vilib&gt;/express/express shared/propPagePersistenceType.ctl"/>
 				<Item Name="ex_Read Properties.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_Read Properties.vi"/>
+				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
+				<Item Name="Compare Two Paths.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Compare Two Paths.vi"/>
+				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
-				<Item Name="subCreateCustomErrorWithData.vi" Type="VI" URL="/&lt;userlib&gt;/_express/CustomErrorCreator/CreateCustomErrorWithDataSource.llb/subCreateCustomErrorWithData.vi"/>
 				<Item Name="MGI RWA Anything to String.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Read Write Anything/MGI RWA Anything to String.vi"/>
 				<Item Name="MGI RWA Options Cluster.ctl" Type="VI" URL="/&lt;userlib&gt;/_MGI/Read Write Anything/MGI RWA Options Cluster.ctl"/>
 				<Item Name="MGI RWA Convertion Direction Enum.ctl" Type="VI" URL="/&lt;userlib&gt;/_MGI/Read Write Anything/MGI RWA Convertion Direction Enum.ctl"/>
@@ -113,6 +120,30 @@
 				<Item Name="GetVIProperties.vi" Type="VI" URL="/&lt;userlib&gt;/_express/CustomErrorCreator/_CreateCustomErrorWithDataConfig.llb/GetVIProperties.vi"/>
 				<Item Name="UpdateCodeText.vi" Type="VI" URL="/&lt;userlib&gt;/_express/CustomErrorCreator/_CreateCustomErrorWithDataConfig.llb/UpdateCodeText.vi"/>
 				<Item Name="GUIFunctions.ctl" Type="VI" URL="/&lt;userlib&gt;/_express/CustomErrorCreator/_CreateCustomErrorWithDataConfig.llb/GUIFunctions.ctl"/>
+				<Item Name="FillListBox.vi" Type="VI" URL="/&lt;userlib&gt;/_express/CustomErrorCreator/_CreateCustomErrorWithDataConfig.llb/FillListBox.vi"/>
+				<Item Name="MergeError.vi" Type="VI" URL="/&lt;userlib&gt;/_express/CustomErrorCreator/_CreateCustomErrorWithDataConfig.llb/MergeError.vi"/>
+				<Item Name="MGI Hex Str to U8 Data.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/String/MGI Hex Str to U8 Data.vi"/>
+				<Item Name="MGI RWA INI Tag Lookup.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Read Write Anything/MGI RWA INI Tag Lookup.vi"/>
+				<Item Name="MGI RWA Build Array Name.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Read Write Anything/MGI RWA Build Array Name.vi"/>
+				<Item Name="MGI Scan From String (CXT[]).vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/String/MGI Scan From String/MGI Scan From String (CXT[]).vi"/>
+				<Item Name="MGI Scan From String (CDB[]).vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/String/MGI Scan From String/MGI Scan From String (CDB[]).vi"/>
+				<Item Name="MGI Scan From String (CSG[]).vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/String/MGI Scan From String/MGI Scan From String (CSG[]).vi"/>
+				<Item Name="MGI Scan From String (DBL[]).vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/String/MGI Scan From String/MGI Scan From String (DBL[]).vi"/>
+				<Item Name="MGI Scan From String (CXT).vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/String/MGI Scan From String/MGI Scan From String (CXT).vi"/>
+				<Item Name="MGI Scan From String (CSG).vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/String/MGI Scan From String/MGI Scan From String (CSG).vi"/>
+				<Item Name="MGI Scan From String (CDB).vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/String/MGI Scan From String/MGI Scan From String (CDB).vi"/>
+				<Item Name="MGI Scan From String.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/String/MGI Scan From String.vi"/>
+				<Item Name="MGI RWA Unprocess Array Elements.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Read Write Anything/MGI RWA Unprocess Array Elements.vi"/>
+				<Item Name="MGI RWA String To Anything.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Read Write Anything/MGI RWA String To Anything.vi"/>
+				<Item Name="MGI Suppress Error Code (Scalar).vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Error Handling/MGI Suppress Error Code/MGI Suppress Error Code (Scalar).vi"/>
+				<Item Name="MGI Suppress Error Code (Array).vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Error Handling/MGI Suppress Error Code/MGI Suppress Error Code (Array).vi"/>
+				<Item Name="MGI Suppress Error Code.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Error Handling/MGI Suppress Error Code.vi"/>
+				<Item Name="MGI RWA Read Strings from File.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Read Write Anything/MGI RWA Read Strings from File.vi"/>
+				<Item Name="MGI Read Anything.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Read Write Anything/MGI Read Anything.vi"/>
+				<Item Name="MGI Create Directory Chain Behavior Enum.ctl" Type="VI" URL="/&lt;userlib&gt;/_MGI/File/MGI Create Directory Chain Behavior Enum.ctl"/>
+				<Item Name="MGI Create Directory Chain.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/File/MGI Create Directory Chain.vi"/>
+				<Item Name="MGI RWA Write Strings to File.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Read Write Anything/MGI RWA Write Strings to File.vi"/>
+				<Item Name="MGI Write Anything.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Read Write Anything/MGI Write Anything.vi"/>
 			</Item>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>

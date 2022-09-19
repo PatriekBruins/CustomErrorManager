@@ -79,6 +79,15 @@
 	</Item>
 	<Item Name="private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="UpdateHistory.vi" Type="VI" URL="/&lt;userlib&gt;/_express/CustomErrorCreator/ErrorDefinitionSQLite/UpdateHistory.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'2!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!B$&amp;.24'FU:3ZM&gt;GRJ9B*$&lt;WZO:7.U;7^O,GRW9WRB=X-!$E.P&lt;GZF9X2J&lt;WYA&lt;X6U!!!51$$`````#U2F=W.S;8"U;7^O!""!-0````](4'FC=G&amp;S?1!11$$`````"E&amp;D&gt;'FP&lt;A!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!31$$`````#56S=G^S6'6Y&gt;!!01!-!#56S=G^S1W^E:1!Y1(!!(A!!)1R455RJ&gt;'5O&lt;(:M;7)31W^O&lt;G6D&gt;'FP&lt;CZM&gt;G.M98.T!!V$&lt;WZO:7.U;7^O)'FO!'%!]!!-!!-!"!!%!!5!"A!%!!=!#!!*!!I!#Q!-!Q!!?!!!$1A!!!!!!!!!!!!!$1M!!AA!!!!!!!!##!!!!AA!!!!+!!!##!!!!"!!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!U!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1074266640</Property>
+		</Item>
 	</Item>
 	<Item Name="ErrorDefinitionSQLite_Create.vi" Type="VI" URL="/&lt;userlib&gt;/_express/CustomErrorCreator/ErrorDefinitionSQLite/ErrorDefinitionSQLite_Create.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%K!!!!#1!-1#%'5X2B&gt;(6T!!!,1!-!"%.P:'5!!""!-0````]'5W^V=G.F!!!71&amp;!!!Q!!!!%!!AB&amp;=H*P=E^V&gt;!!!"!!!!$:!=!!?!!!@(56S=G^S2'6G;7ZJ&gt;'FP&lt;F.24'FU:3ZM&gt;G.M98.T!!V3:7:F=G6O9W5A&lt;X6U!"2!5!!$!!!!!1!#"U6S=G^S37Y!.E"Q!"Y!!"]&gt;28*S&lt;X*%:7:J&lt;GFU;7^O5V&amp;-;82F,GRW9WRB=X-!$&amp;*F:G6S:7ZD:3"J&lt;A!!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!!)!!!U!!!!-!!!!!!!!!!!!!!%!#!!!!!!</Property>
@@ -160,5 +169,14 @@
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
+	</Item>
+	<Item Name="MakeErrorObsolete.vi" Type="VI" URL="/&lt;userlib&gt;/_express/CustomErrorCreator/ErrorDefinitionSQLite/MakeErrorObsolete.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;=!!!!$1!-1#%'5X2B&gt;(6T!!!,1!-!"%.P:'5!!""!-0````]'5W^V=G.F!!!71&amp;!!!Q!!!!%!!AB&amp;=H*P=E^V&gt;!!!"!!!!$:!=!!?!!!@(56S=G^S2'6G;7ZJ&gt;'FP&lt;F.24'FU:3ZM&gt;G.M98.T!!R3:7:F=G6O9W60&gt;81!!"2!-0````],2'6T9X*J=(2J&lt;WY!%%!Q`````Q&gt;-;7*S98*Z!"2!5!!$!!!!!1!#"U6S=G^S37Y!$E!Q`````Q25:8BU!!!01!-!#56S=G^S1W^E:1!U1(!!(A!!(RV&amp;=H*P=E2F:GFO;82J&lt;WZ455RJ&gt;'5O&lt;(:D&lt;'&amp;T=Q!,5G6G:8*F&lt;G.F37Y!6!$Q!!Q!!Q!%!!1!"1!'!!1!"Q!%!!A!#1!+!!M$!!"Y!!!.#!!!!!!!!!!!!!#.#Q!#%!!!!!!!!!)1!!!!!!!!!!I!!!)1!!!!%!!!!*!!!!!!!1!-!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">2</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082929680</Property>
 	</Item>
 </LVClass>
