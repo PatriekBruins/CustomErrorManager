@@ -1,4 +1,4 @@
-# CustomErrorCreator
+# CustomErrorManager
 Create and manage custom errors in Labview
 
 This LabVIEW library that should be placed in <LabVIEW folder>\user.lib\_express defines an Express VI that allows for managing custom error codes for LabVIEW installations.
