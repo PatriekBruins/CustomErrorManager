@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-09-29 08:18:44" Modified_Date="2022-12-10 23:00:51" Creator="pbruins" Comments="" ID="9f3242256073092585f22445ae321ba8">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-09-29 08:18:44" Modified_Date="2023-04-19 14:00:55" Creator="pbruins" Comments="" ID="e3205ce13b0387068069bb0864c57dd5">
   <Library_General_Settings>
     <Package_File_Name>TriekselSoft_lib_CustomErrorManager</Package_File_Name>
-    <Library_Version>1.0.1.20</Library_Version>
+    <Library_Version>1.1.0.21</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>..\Released</Library_Output_Folder>
@@ -243,7 +243,7 @@
         <Path>OpenDBEditor.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6BA6EECD683C3C4807B95E536523436F</GUID>
+      <GUID>6FA67D5281A16A2321DB7A4575FB29FC</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
