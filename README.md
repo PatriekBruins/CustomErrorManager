@@ -15,6 +15,8 @@ The next features are implemented
 # Configuration
 After installation the default configuration is used
 <LabVIEW folder>\user.lib\_express\CustomErrorManager\Source\CustomErrorCreator.ini
+
+This can be edited manually or by using configuration editor in the TriekselSoft's LabVIEW Tools menu.
   
 DataSetFilePath=GlobalErrorDefinition.sqlite
 DefaultErrorCreationType=ErrorCreationMGI.lvclass
