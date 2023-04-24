@@ -1,4 +1,4 @@
-# CustomErrorCreator
+# CustomErrorManager
 Create and manage custom errors in Labview.
 
 Did you never had the problem that you wanted to create a custom unique error? There are several ways to manage that, and this is my proposal on how to do that using minimal overhead.
