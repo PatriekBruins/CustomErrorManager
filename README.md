@@ -1,5 +1,8 @@
 # CustomErrorCreator
-Create and manage custom errors in Labview
+Create and manage custom errors in Labview.
+
+Did you never had the problem that you wanted to create a custom unique error? There are several ways to manage that, and this is my proposal on how to do that using minimal overhead.
+All custom errors as stored in a database. They can be created in your VI using an ExpressVI which handles the uniqueness of error code. The ExpressVI allows you to edit and select known errors and manage discepancies between code and database.
 
 This LabVIEW library that should be placed in <LabVIEW folder>\user.lib\_express defines an Express VI that allows for managing custom error codes for LabVIEW installations.
 Errors are stored in a SQLite database
